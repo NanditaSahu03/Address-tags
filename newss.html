@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_24bd46ab0866463c8fcf0137b8bc3426 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_24bd46ab0866463c8fcf0137b8bc3426" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_24bd46ab0866463c8fcf0137b8bc3426 = L.map(
+        'map_24bd46ab0866463c8fcf0137b8bc3426', {
+        center: [22.028124, 88.0632655],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_78118aa3dd154ec5896cd2015b8d3eb5 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+    
+        var marker_85d8708189a642ecbfd0b98aa2b6472b = L.marker(
+            [22.0506, 88.0722],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_4c1eb3f0293b4b67a1c645ee1c947772 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_85d8708189a642ecbfd0b98aa2b6472b.setIcon(icon_4c1eb3f0293b4b67a1c645ee1c947772);
+            
+    
+            var popup_c54eb021a2d04fa497def72dede78684 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_74f9a20c15ea4f9f8765aafb5a45fbbf = $('<div id="html_74f9a20c15ea4f9f8765aafb5a45fbbf" style="width: 100.0%; height: 100.0%;">The place(HALDIA INSTITUTE OF TECHNOLOGY) where i met you first time(clg) and got u as my friend</div>')[0];
+                popup_c54eb021a2d04fa497def72dede78684.setContent(html_74f9a20c15ea4f9f8765aafb5a45fbbf);
+            
+
+            marker_85d8708189a642ecbfd0b98aa2b6472b.bindPopup(popup_c54eb021a2d04fa497def72dede78684)
+            ;
+
+            
+        
+    
+        var marker_fe6f06baa56f49ed9253f14a9eb93f9d = L.marker(
+            [22.051193, 88.064319],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_6210f147346844cba0c4c837126be82d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fe6f06baa56f49ed9253f14a9eb93f9d.setIcon(icon_6210f147346844cba0c4c837126be82d);
+            
+    
+            var popup_ec0b4ddfecf04b7d93af305ac302c403 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf5485ddcca8495dbfb2fe6f7c30ecaa = $('<div id="html_bf5485ddcca8495dbfb2fe6f7c30ecaa" style="width: 100.0%; height: 100.0%;">The place(KHUDIRAM MARKET) where i usually go.. praying to god that by conincident i can see u there eating golgappas and give company to u</div>')[0];
+                popup_ec0b4ddfecf04b7d93af305ac302c403.setContent(html_bf5485ddcca8495dbfb2fe6f7c30ecaa);
+            
+
+            marker_fe6f06baa56f49ed9253f14a9eb93f9d.bindPopup(popup_ec0b4ddfecf04b7d93af305ac302c403)
+            ;
+
+            
+        
+    
+        var marker_bcd9ad80b0404bc28942527350041505 = L.marker(
+            [22.051868, 88.07125],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_6595246e1e2c4b3daa4342887b8d3b0d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bcd9ad80b0404bc28942527350041505.setIcon(icon_6595246e1e2c4b3daa4342887b8d3b0d);
+            
+    
+            var popup_3ceb4b40d28342049310ed84db6a5ab0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4911adfb7e6a407d94ae6e0ef3cd987f = $('<div id="html_4911adfb7e6a407d94ae6e0ef3cd987f" style="width: 100.0%; height: 100.0%;">The place(CLG LIBRARY) where i taught u to hack fb account and where i have seen ur ex..s  pics.....the place where u told me that me to get out of ur life because u are frustrated of me </div>')[0];
+                popup_3ceb4b40d28342049310ed84db6a5ab0.setContent(html_4911adfb7e6a407d94ae6e0ef3cd987f);
+            
+
+            marker_bcd9ad80b0404bc28942527350041505.bindPopup(popup_3ceb4b40d28342049310ed84db6a5ab0)
+            ;
+
+            
+        
+    
+        var marker_ab2937fb5fab4c23a001457a96496f4b = L.marker(
+            [22.04924, 88.069605],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_776d6932f75d45dc9aab2cdfb421ea03 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab2937fb5fab4c23a001457a96496f4b.setIcon(icon_776d6932f75d45dc9aab2cdfb421ea03);
+            
+    
+            var popup_336bf8a933f3433f9eaa47b816dd0bce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c2d1ace108c4545aff0624c90002d30 = $('<div id="html_6c2d1ace108c4545aff0624c90002d30" style="width: 100.0%; height: 100.0%;">The place(CLG ROAD)where i use to go with u in cc for movie ...great memories i have in this road...the place where i always stare sitting beside some thek when u return to your home or go to clg</div>')[0];
+                popup_336bf8a933f3433f9eaa47b816dd0bce.setContent(html_6c2d1ace108c4545aff0624c90002d30);
+            
+
+            marker_ab2937fb5fab4c23a001457a96496f4b.bindPopup(popup_336bf8a933f3433f9eaa47b816dd0bce)
+            ;
+
+            
+        
+    
+        var marker_8cae6be6ff324cc4966123d3f77b64e4 = L.marker(
+            [22.049966, 88.067202],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_fdb2115db5404b4fb00e6ba0f741b615 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8cae6be6ff324cc4966123d3f77b64e4.setIcon(icon_fdb2115db5404b4fb00e6ba0f741b615);
+            
+    
+            var popup_5474dbdbe8c14e6dafd3c6162f1a242a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d07f221a99fb4af4a18fab49e4780c23 = $('<div id="html_d07f221a99fb4af4a18fab49e4780c23" style="width: 100.0%; height: 100.0%;">The place(THEK)where i drank tea with u first time when u came near balaji to take BABA...s cake</div>')[0];
+                popup_5474dbdbe8c14e6dafd3c6162f1a242a.setContent(html_d07f221a99fb4af4a18fab49e4780c23);
+            
+
+            marker_8cae6be6ff324cc4966123d3f77b64e4.bindPopup(popup_5474dbdbe8c14e6dafd3c6162f1a242a)
+            ;
+
+            
+        
+    
+        var marker_fb394189962d447bb52581b8995a47e2 = L.marker(
+            [22.050631, 88.073382],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_d1d93f7ab73a4decb56f3b0cde79a92a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb394189962d447bb52581b8995a47e2.setIcon(icon_d1d93f7ab73a4decb56f3b0cde79a92a);
+            
+    
+            var popup_31d44f5274c04e03a0d0fc24e8c402e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c8a52358b7994a369b1332dce2fca187 = $('<div id="html_c8a52358b7994a369b1332dce2fca187" style="width: 100.0%; height: 100.0%;">The place (GARDEN) where after riveria we went together having dinner just because you were angry with ur roomies </div>')[0];
+                popup_31d44f5274c04e03a0d0fc24e8c402e3.setContent(html_c8a52358b7994a369b1332dce2fca187);
+            
+
+            marker_fb394189962d447bb52581b8995a47e2.bindPopup(popup_31d44f5274c04e03a0d0fc24e8c402e3)
+            ;
+
+            
+        
+    
+        var marker_b6a05243deb34e86bb310deff008dec1 = L.marker(
+            [22.048106, 88.065592],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_6211e8b1c8454ecca9078146da71b9cf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6a05243deb34e86bb310deff008dec1.setIcon(icon_6211e8b1c8454ecca9078146da71b9cf);
+            
+    
+            var popup_23858087ec5e44f9ae54208fbc3cde7d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b4e441a418a4f668308df641e927b36 = $('<div id="html_3b4e441a418a4f668308df641e927b36" style="width: 100.0%; height: 100.0%;">The place (BR) where u called me up once and told me to come near the gate as u are near BR for dhurwa club and i was waiting for u for 15 min </div>')[0];
+                popup_23858087ec5e44f9ae54208fbc3cde7d.setContent(html_3b4e441a418a4f668308df641e927b36);
+            
+
+            marker_b6a05243deb34e86bb310deff008dec1.bindPopup(popup_23858087ec5e44f9ae54208fbc3cde7d)
+            ;
+
+            
+        
+    
+        var marker_952ed7436e5b47de8c1339f70b0bc96a = L.marker(
+            [22.059653, 88.075432],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_24bd46ab0866463c8fcf0137b8bc3426);
+        
+    
+
+                var icon_6e72da896126448596fcf9b10ec021da = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_952ed7436e5b47de8c1339f70b0bc96a.setIcon(icon_6e72da896126448596fcf9b10ec021da);
+            
+    
+            var popup_96291e4c23554f8e9c1cc0913c65a5f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3dd732e2734f4f77b2773ddcaad480b1 = $('<div id="html_3dd732e2734f4f77b2773ddcaad480b1" style="width: 100.0%; height: 100.0%;">The place (CC) where i requested DIYANK,BISWAJEET,NAVEEN to hide somewhere in cc so that u come comforatbly in theatre ....the place where u were feeling very shy when MOHIT, u, ABHINAV and I met for dinner DURING DIWALI </div>')[0];
+                popup_96291e4c23554f8e9c1cc0913c65a5f9.setContent(html_3dd732e2734f4f77b2773ddcaad480b1);
+            
+
+            marker_952ed7436e5b47de8c1339f70b0bc96a.bindPopup(popup_96291e4c23554f8e9c1cc0913c65a5f9)
+            ;
+
+            
+        
+</script>
